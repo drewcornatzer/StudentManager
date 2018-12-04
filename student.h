@@ -6,18 +6,14 @@
 class student
 {
         private:
-        std::string name1;
-        std::string name2;
+        std::string firstName;
+        std::string lastName;
 
         public:
-        void setName(std::string,std::string)
-        {
-
-        }
-        std::string fullName()
-        {
-
-        }
+        void setName(std::string,std::string);
+        
+        std::string fullName();
+        
 };
 
 #endif
